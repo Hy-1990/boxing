@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Slip! Privacy Policy</title>
+  <meta name="description" content="How Slip! handles camera input and local game progress.">
+  <style>
+    :root { color-scheme: light dark; --paper:#fff3d8; --ink:#211c1c; --red:#f34a2e; --line:#d9c9ac; --link:#a32819; }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper:#211c1c; --ink:#fff3d8; --red:#ff7155; --line:#6f5a51; --link:#ff9b82; }
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; background:var(--paper); color:var(--ink); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(100% - 40px,720px); margin:0 auto; padding:54px 0 80px; }
+    h1 { margin:18px 0 8px; font-size:clamp(43px,8vw,70px); line-height:1; letter-spacing:-.05em; }
+    .date { margin-bottom:28px; font-size:13px; }
+    .stroke { width:145px; height:8px; background:var(--red); transform:skewX(-20deg) rotate(-2deg); margin:0 0 38px; }
+    h2 { margin:0 0 10px; font-size:22px; line-height:1.2; }
+    section { padding:24px 0; border-top:2px solid var(--line); }
+    p { margin:0 0 12px; }
+    ul { padding-left:21px; margin:0 0 12px; }
+    li { margin:4px 0; }
+    a { color:var(--link); text-underline-offset:3px; }
+    footer { margin-top:26px; border-top:2px solid var(--ink); padding-top:17px; font-size:13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <div class="date">Effective October 19, 2026</div>
+    <div class="stroke" aria-hidden="true"></div>
+    <section>
+      <h2>Summary</h2>
+      <p>Slip! uses your iPhone's front camera to detect head movement during gameplay. Camera frames and face tracking data stay on your device. The app does not record or upload camera images, face data, or gameplay information.</p>
+    </section>
+    <section>
+      <h2>Camera and face tracking</h2>
+      <p>When you grant Camera permission and play, Apple's ARKit processes the front-camera feed to estimate head position and orientation. Slip! uses those estimates in real time to judge dodges and animate the player. The app does not save photos, video, face geometry, or a history of head movements. The camera is stopped when gameplay ends or the app is inactive. You can revoke Camera permission at any time in iPhone Settings; gameplay requires this permission.</p>
+    </section>
+    <section>
+      <h2>Local game progress</h2>
+      <p>Slip! stores tutorial completion, best score, total games, and total dodges locally on your device so your progress remains available between sessions. This information is not sent to us. To remove this locally stored progress, delete the app from your device. If you reinstall the app from a device backup, iOS may restore app data as part of that backup.</p>
+    </section>
+    <section>
+      <h2>Data collection and sharing</h2>
+      <p>We do not collect personal information, camera images, face tracking data, or gameplay information from the app. The current version does not include accounts, advertising, analytics services, or third-party tracking SDKs. We do not sell or share app data with third parties.</p>
+    </section>
+    <section>
+      <h2>Children and changes</h2>
+      <p>Slip! does not knowingly collect information from children. If app data practices change in a future version, we will update this policy and the App Store privacy disclosure before releasing that version. The effective date above will change when the policy is revised.</p>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p>For privacy questions, email <a href="mailto:airlync_huyi@126.com">airlync_huyi@126.com</a>. Because we do not hold account or gameplay data on a server, there is no server-side profile to delete; local game progress can be removed by deleting the app.</p>
+    </section>
+    <footer>© 2026 {{COPYRIGHT_OWNER}}</footer>
+  </main>
+</body>
+</html>
